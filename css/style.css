@@ -1,0 +1,140 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+	background: url('../kepek/bg-body.gif') fixed;
+	background-color: #333333;
+	font-size: 16px;
+	margin: 0;
+
+}
+
+p {
+	margin: 0px;
+}
+
+#csomagolas {
+	background-color: #666666;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+#fejlec {
+	background: url('../kepek/hello-world.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	margin: 0px;
+	padding: 10px;
+	height: 300px;
+	width: 100%
+}
+#tartalom {
+	background-color: #999999;
+	width: 100%;
+	float: left;
+}
+#menusor {
+	margin: 0px;
+	padding: 10px;
+	height: auto;
+	width: 20%;
+	float: left;
+}
+
+#menusor ul {
+	margin: 0;
+	padding: 10px;
+	list-style: none
+}
+#menusor ul li {
+	border-bottom: 1px dashed rgba(255,255,255,.8);
+}
+#menusor a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 0;
+	display: block
+}
+#menusor a:hover {
+	padding: 10px;
+	background: rgba(255,255,255,.1)
+}
+
+#cikkek {
+	background-color: #dddddd;
+	margin: 0px;
+	padding: 10px;
+	height: auto;
+	width: 60%;
+	float: left;
+}
+.box {
+	width: 90%;
+	height: auto;
+	max-width: 640px;
+	min-width: 200px;
+	margin: 20px auto 20px auto;
+}
+.box .header-image {
+	background-image: url('../kepek/hi_prny.png');
+	background-position: center top;
+	height: 250px;
+}
+
+.box .content {
+	font-family: Arial, Verdana, sans-serif;
+	background-color: #333333;
+	padding: 20px;
+}
+
+.box .content h1,h2 {
+	color: #32859d;
+	margin: 0;
+}	
+
+.box .content p {
+	color: #eeeeee;
+	text-align: justify;
+}
+.box .content pre {
+	color: #eeeeee;
+
+}
+.box .content q {
+	color: #ededed;
+}
+.box .content .details {
+	margin: 20px 0 0 0
+}
+
+.box .content .details a {
+	background: #cccccc;
+	color: black;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+#oldalsav {
+	margin: 0px;
+	padding: 10px;
+	height: auto;
+	width: 20%;
+	float: left;
+}
+
+.nev {
+	font-family: Arial, Verdana, sans-serif;
+	color: #ffffff;
+	font-size: 10px;
+}
+#lablec {
+	clear: both;
+	margin: 0px;
+	padding: 10px;
+	height: auto;
+	width: 100%;
+}
+#lablec p {
+	padding: 0 100px 0 100px;
+	text-align: center;
+}
